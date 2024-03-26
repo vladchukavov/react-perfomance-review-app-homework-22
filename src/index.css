@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +8,16 @@ body {
     min-height: 100vh;
     background: rgb(86,122,129);
     background: linear-gradient(56deg, rgba(86,122,129,1) 10%, rgba(41,129,147,1) 41%, rgba(9,55,64,1) 100%);
+}
+
+.btn {
+    @apply bg-brand-secondary min-w-[237px] rounded-3xl border-0 p-5 text-white
+}
+
+.btn--accent {
+    @apply bg-brand-accent
+}
+
+body {
+    @apply font-montserrat
 }
