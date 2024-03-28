@@ -1,6 +1,8 @@
+import AuthProvider from '../components/common/AuthProvider.jsx';
+
 const LoginPage = () => (
   <>
-    <h1 className={'text-center text-3xl'}>Login</h1>
+    <AuthProvider />
   </>
 );
 

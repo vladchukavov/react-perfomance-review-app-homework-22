@@ -1,9 +1,9 @@
-import AppHeader from './components/common/AppHeader.jsx';
 import { Outlet } from 'react-router-dom';
+import LoginPage from './routes/LoginPage.jsx';
 
 const App = () => (
   <>
-    <AppHeader />
+    <LoginPage />
     <Outlet />
   </>
 );
